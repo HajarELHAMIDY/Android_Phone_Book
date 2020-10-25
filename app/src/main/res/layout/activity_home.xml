@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="254dp"
+        android:layout_height="274dp"
+        app:srcCompat="@drawable/book"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/consulter"
+        android:layout_width="256dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn2"
+        android:text="Consulter" />
+
+    <Button
+        android:id="@+id/exit"
+        android:textSize="20dp"
+        android:layout_width="256dp"
+        android:layout_height="56dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:background="@drawable/btn2"
+        android:text="Quitter" />
+</LinearLayout>
